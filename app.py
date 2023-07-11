@@ -18,7 +18,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 # Generate empty lists for bot_response and user_input.
 ## bot_response stores AI generated responses
 if 'bot_response' not in st.session_state:
-    st.session_state['bot_response'] = ["I'm ChatMATE, How may I help you?"]
+    st.session_state['bot_response'] = ["I'm hugchat, How may I help you?"]
 
 ## user_input stores User's questions
 if 'user_input' not in st.session_state:
