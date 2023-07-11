@@ -6,7 +6,13 @@ from hugchat import hugchat
 
 
 
-st.set_page_config(page_title="ChatMATE - Chat Multi-purpose AI Technology")
+st.set_page_config(page_title="HugChat 1.0")
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 # default startup message mode
 # Generate empty lists for bot_response and user_input.
